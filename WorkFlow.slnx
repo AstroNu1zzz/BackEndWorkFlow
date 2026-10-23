@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="WorkFlow/WorkFlow.csproj" />
+  <Project Path="WorkFlow.API/WorkFlow.API.csproj" Id="155a0b7b-70bf-4024-be39-ff31a7e3d758" />
+  <Project Path="WorkFlow/WorkFlow.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>
